@@ -17,10 +17,10 @@
 -   Worked on the radio code language selection html & validation.
 -   Error message creation & deletion.
 
-### Name 2:
+### Warren Macalino:
 
--   Was responsible for [specific tasks], focusing on [specific HTML elements].
+-   Created the availability section of the form and wrote it's validation. Added an "additional info" textbox at the bottom of the form.
 
-### Name 3:
+### Prajita Sanyasi:
 
--   Handled [specific sections], covering [specific topics or features].
+-   Created the contact information section of the job application, inputs, validation, errors. 
