@@ -8,9 +8,59 @@
 </head>
 <body>
     <h1>Job Application</h1>
-    <form id= jobApplicationForm action="#">
+    <form id= jobApplicationForm action = "https://httpbin.org/post" method = "post" novalidate>
+        <div id= "contactNameContainer">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="John Doe">
+        </div>
+        <div id= "contactEmailContainer">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="example@gmail.com ">
+        </div>
+        <div id="contactPhoneContainer">
+            <label for="phone-number">Phone Number:</label>
+            <input type="text" id="phone-number" name="phone-number" placeholder="123-456-7890">
+        </div>    
+        
 
+        <div id = "codeLanguagesContainer">
+            <h2>What Coding Languages do you know?</h2>
+            <div class = "languageSelectionContainer">
+                <label for="javaScript">Java Script:</label>
+                <input type="radio" name="javaScript" id="javaScript" class="languageSelection">
+            </div>
 
+            <div class = "languageSelectionContainer">
+                <label for="python">python:</label>
+                <input type="radio" name="python" id="python" class="languageSelection">
+            </div>
+            
+            <div class = "languageSelectionContainer">
+                <label for="c#">C#:</label>
+                <input type="radio" name="c#" id="c#" class="languageSelection">
+            </div>
+        </div>
+
+        <div class="availablilty-container">
+            <label for="availability">What availability are you applying for?</label> 
+            <select id ="availability-type" name="availability-type">
+                <option value="" disabled selected>--Please choose an option--</option>
+                <option value="full-time">Full Time (min. 40 hours)</option>
+                <option value="part-time">Part Time</option>
+                <option value="casual-on-call">Casual/On-call</option>
+                <option value="temporary-contract">Temporary/Contract</option>
+                <option value="remote-hybrid">Remote/Hybrid</option>        
+            </select>
+        </div>
+
+        <div class="additional-info-container">
+            <label for="additional-info">Other Information</label><br/>
+            <textarea id="additional-info" name="additional-info" rows="4" placeholder="Any other info about yourself that you'd like to share?"></textarea>
+        </div>
+
+        <div>
+            <input type="submit" value="submit" id="submitButton">
+        </div>
     </form>
     <script src="script.js"></script>
 </body>

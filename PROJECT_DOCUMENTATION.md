@@ -12,9 +12,10 @@
 
 ## Member Contributions:
 
-### Name 1:
+### Hudson Drozdowski:
 
--   Worked on [specific elements] of the webpage.
+-   Worked on the radio code language selection html & validation.
+-   Error message creation & deletion.
 
 ### Name 2:
 
